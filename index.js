@@ -62,7 +62,7 @@ SQL.prototype.set = function (options) {
 	return this
 }
 
-SQL.prototype.values = function(options) {
+SQL.prototype.values = function (options) {
 	this.sql += valuesParse(options)
 	return this
 }

@@ -220,6 +220,19 @@ insert into user_table set name = "hao", age = 12, point = 3333, create_time = "
 */
 ```
 
+```js
+var sql = SQL.insert('user_table').values({
+	name: 'hao',
+	age: 12,
+	point: 3333,
+	create_time: '2013-09-14'
+}).done()
+
+/*
+insert into user_table ( name, age, point, create_time ) values ( "hao", 12, 3333, "2013-09-14" )
+*/
+```
+
 ### sql delete
 ```js
 var sql = SQL.del('user_table').where({
@@ -251,4 +264,8 @@ or money between 2345 and 3456 or phone > 2345678
 */
 ```
 
-### test coverage: 99%
+### test
+test coverage: 99%
+
+### License
+MIT

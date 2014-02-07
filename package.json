@@ -1,6 +1,6 @@
 {
   "name": "j-sql",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "transform js object or json to sql select or update",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     }
   },
   "author": "haoxin",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/coderhaoxin/j-sql/issues"
   },
